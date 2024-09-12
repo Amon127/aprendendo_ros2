@@ -1,0 +1,6 @@
+source;share/curintia/hook/pythonpath.ps1
+source;share/curintia/hook/pythonpath.dsv
+source;share/curintia/hook/pythonpath.sh
+source;share/curintia/hook/ament_prefix_path.ps1
+source;share/curintia/hook/ament_prefix_path.dsv
+source;share/curintia/hook/ament_prefix_path.sh

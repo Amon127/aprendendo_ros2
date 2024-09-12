@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/curintia/curintia.egg-info
+writing ../build/curintia/curintia.egg-info/PKG-INFO
+writing dependency_links to ../build/curintia/curintia.egg-info/dependency_links.txt
+writing entry points to ../build/curintia/curintia.egg-info/entry_points.txt
+writing requirements to ../build/curintia/curintia.egg-info/requires.txt
+writing top-level names to ../build/curintia/curintia.egg-info/top_level.txt
+writing manifest file '../build/curintia/curintia.egg-info/SOURCES.txt'
+reading manifest file '../build/curintia/curintia.egg-info/SOURCES.txt'
+writing manifest file '../build/curintia/curintia.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/ws_aprendendo_ros2/src/build/curintia/build
+creating /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib
+creating /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia
+copying curintia/__init__.py -> /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia
+running install
+running install_lib
+creating /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia
+copying /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia/__init__.py -> /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia
+byte-compiling /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robot/ws_aprendendo_ros2/src/install/curintia/share/ament_index
+creating /home/robot/ws_aprendendo_ros2/src/install/curintia/share/ament_index/resource_index
+creating /home/robot/ws_aprendendo_ros2/src/install/curintia/share/ament_index/resource_index/packages
+copying resource/curintia -> /home/robot/ws_aprendendo_ros2/src/install/curintia/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/curintia/share/curintia
+running install_egg_info
+Copying ../build/curintia/curintia.egg-info to /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/curintia/install.log'

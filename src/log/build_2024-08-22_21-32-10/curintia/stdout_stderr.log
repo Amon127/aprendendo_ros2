@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/curintia/curintia.egg-info/PKG-INFO
+writing dependency_links to ../build/curintia/curintia.egg-info/dependency_links.txt
+writing entry points to ../build/curintia/curintia.egg-info/entry_points.txt
+writing requirements to ../build/curintia/curintia.egg-info/requires.txt
+writing top-level names to ../build/curintia/curintia.egg-info/top_level.txt
+reading manifest file '../build/curintia/curintia.egg-info/SOURCES.txt'
+writing manifest file '../build/curintia/curintia.egg-info/SOURCES.txt'
+running build
+running build_py
+copying curintia/roger_guedes.py -> /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia
+copying curintia/yuri_alberto.py -> /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia
+running install
+running install_lib
+copying /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia/roger_guedes.py -> /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia
+copying /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia/yuri_alberto.py -> /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia
+byte-compiling /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia/roger_guedes.py to roger_guedes.cpython-310.pyc
+byte-compiling /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia/yuri_alberto.py to yuri_alberto.cpython-310.pyc
+running install_data
+creating /home/robot/ws_aprendendo_ros2/src/install/curintia/share/curintia/launch
+copying launch/batata.py -> /home/robot/ws_aprendendo_ros2/src/install/curintia/share/curintia/launch
+running install_egg_info
+removing '/home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/curintia/curintia.egg-info to /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia-0.0.0-py3.10.egg-info
+running install_scripts
+Installing roger_guedes script to /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/curintia
+Installing yuri_alberto script to /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/curintia
+writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/curintia/install.log'

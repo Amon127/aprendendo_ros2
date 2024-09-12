@@ -1,0 +1,24 @@
+[0.673s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build install --record /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log --single-version-externally-managed
+[0.908s] running egg_info
+[0.909s] writing ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/PKG-INFO
+[0.909s] writing dependency_links to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/dependency_links.txt
+[0.910s] writing entry points to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/entry_points.txt
+[0.910s] writing requirements to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/requires.txt
+[0.911s] writing top-level names to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/top_level.txt
+[0.914s] reading manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.916s] writing manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.917s] running build
+[0.917s] running build_py
+[0.918s] running install
+[0.919s] running install_lib
+[0.920s] running install_data
+[0.921s] running install_egg_info
+[0.923s] removing '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos-0.0.0-py3.10.egg-info' (and everything under it)
+[0.925s] Copying ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos-0.0.0-py3.10.egg-info
+[0.926s] running install_scripts
+[0.946s] Installing checkpoints script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.946s] Installing no_com_classe script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.947s] Installing no_simples script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.948s] Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.948s] writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log'
+[0.968s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build install --record /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log --single-version-externally-managed

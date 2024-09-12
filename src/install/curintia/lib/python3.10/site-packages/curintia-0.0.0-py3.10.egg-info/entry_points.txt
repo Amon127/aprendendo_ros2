@@ -1,0 +1,4 @@
+[console_scripts]
+roger_guedes = curintia.roger_guedes:main
+yuri_alberto = curintia.yuri_alberto:main
+

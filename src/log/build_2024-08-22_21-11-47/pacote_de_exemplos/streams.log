@@ -1,0 +1,116 @@
+[0.633s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build install --record /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log --single-version-externally-managed
+[0.949s] running egg_info
+[0.952s] creating ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info
+[0.953s] writing ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/PKG-INFO
+[0.954s] writing dependency_links to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/dependency_links.txt
+[0.954s] writing entry points to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/entry_points.txt
+[0.955s] writing requirements to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/requires.txt
+[0.956s] writing top-level names to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/top_level.txt
+[0.957s] writing manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.958s] reading manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.959s] writing manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.959s] running build
+[0.960s] running build_py
+[0.961s] creating /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build
+[0.962s] creating /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib
+[0.963s] creating /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.964s] copying pacote_de_exemplos/no_com_classe.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.964s] copying pacote_de_exemplos/__init__.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.965s] copying pacote_de_exemplos/no_simples.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.967s] copying pacote_de_exemplos/robot.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.968s] copying pacote_de_exemplos/r2d2.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.969s] copying pacote_de_exemplos/checkpoints.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.970s] running install
+[0.972s] running install_lib
+[0.973s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.974s] copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/no_com_classe.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.977s] copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/__init__.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.978s] copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/no_simples.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.979s] copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/robot.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.980s] copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/r2d2.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.980s] copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/checkpoints.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.981s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/no_com_classe.py to no_com_classe.cpython-310.pyc
+[0.983s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/__init__.py to __init__.cpython-310.pyc
+[0.983s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/no_simples.py to no_simples.cpython-310.pyc
+[0.985s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/robot.py to robot.cpython-310.pyc
+[0.986s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/r2d2.py to r2d2.cpython-310.pyc
+[0.987s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/checkpoints.py to checkpoints.cpython-310.pyc
+[0.988s] running install_data
+[0.988s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index
+[0.989s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index/resource_index
+[0.990s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index/resource_index/packages
+[0.990s] copying resource/pacote_de_exemplos -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index/resource_index/packages
+[0.991s] copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos
+[0.992s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config
+[0.992s] copying config/Default.perspective -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/
+[0.993s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.994s] copying config/map/map.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.994s] copying config/map/map.pgm -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.995s] copying config/map/checkpoints.json -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.996s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.997s] copying config/rviz/navigation.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.997s] copying config/rviz/robot.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.998s] copying config/rviz/mapping_cartographer.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.999s] copying config/rviz/mapping_slam_toolbox.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.999s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[1.000s] copying config/nav/slam_toolbox.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[1.001s] copying config/nav/nav2_params.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[1.002s] copying config/nav/ekf.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[1.002s] copying config/nav/cartographer.lua -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[1.003s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch
+[1.004s] copying launch/simulation.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.004s] copying launch/mapping_cartographer.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.004s] copying launch/navigation2.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.007s] copying launch/mapping_slam_toolbox.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.007s] copying launch/load.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.007s] copying launch/display.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.007s] copying launch/navigation.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.007s] copying launch/turtlebot.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.009s] copying launch/exemplo.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.009s] copying launch/load_turtlebot.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[1.010s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation
+[1.010s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[1.011s] copying simulation/worlds/simple_room.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[1.014s] copying simulation/worlds/simple_room_with_random_boxes.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[1.014s] copying simulation/worlds/simple_room_with_fixed_boxes.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[1.014s] copying simulation/worlds/empty.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[1.014s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models
+[1.014s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2
+[1.018s] copying simulation/models/r2d2/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2
+[1.018s] copying simulation/models/r2d2/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2
+[1.018s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square
+[1.018s] copying simulation/models/wood_square/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square
+[1.019s] copying simulation/models/wood_square/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square
+[1.019s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box
+[1.019s] copying simulation/models/box/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box
+[1.022s] copying simulation/models/box/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box
+[1.022s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room
+[1.022s] copying simulation/models/simple_room/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room
+[1.022s] copying simulation/models/simple_room/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room
+[1.022s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf
+[1.022s] copying urdf/robot.urdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[1.023s] copying urdf/sam_bot_description.urdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[1.023s] copying urdf/myfirstrobot.urdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[1.023s] copying urdf/myfirstrobot.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[1.026s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[1.026s] copying urdf/simulation/gazebo_base.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[1.026s] copying urdf/simulation/imu.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[1.027s] copying urdf/simulation/gazebo_laser.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[1.027s] copying urdf/simulation/gazebo_camera.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[1.027s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros
+[1.027s] copying urdf/macros/properties.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros
+[1.027s] copying urdf/macros/link_geometry.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros
+[1.028s] creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[1.028s] copying urdf/macros/parts/wheel.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[1.028s] copying urdf/macros/parts/base.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[1.028s] copying urdf/macros/parts/head.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[1.032s] copying urdf/macros/parts/leg.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[1.032s] running install_egg_info
+[1.033s] Copying ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos-0.0.0-py3.10.egg-info
+[1.034s] running install_scripts
+[1.034s] Installing checkpoints script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.034s] Installing no_com_classe script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.034s] Installing no_simples script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.034s] Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.034s] writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log'
+[1.039s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build install --record /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log --single-version-externally-managed

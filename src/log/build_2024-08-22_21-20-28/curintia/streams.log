@@ -1,0 +1,24 @@
+[1.102s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/curintia': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/curintia/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/curintia build --build-base /home/robot/ws_aprendendo_ros2/src/build/curintia/build install --record /home/robot/ws_aprendendo_ros2/src/build/curintia/install.log --single-version-externally-managed
+[1.510s] running egg_info
+[1.510s] writing ../build/curintia/curintia.egg-info/PKG-INFO
+[1.511s] writing dependency_links to ../build/curintia/curintia.egg-info/dependency_links.txt
+[1.511s] writing entry points to ../build/curintia/curintia.egg-info/entry_points.txt
+[1.512s] writing requirements to ../build/curintia/curintia.egg-info/requires.txt
+[1.512s] writing top-level names to ../build/curintia/curintia.egg-info/top_level.txt
+[1.515s] reading manifest file '../build/curintia/curintia.egg-info/SOURCES.txt'
+[1.517s] writing manifest file '../build/curintia/curintia.egg-info/SOURCES.txt'
+[1.517s] running build
+[1.517s] running build_py
+[1.518s] copying curintia/roger_guedes.py -> /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia
+[1.518s] running install
+[1.519s] running install_lib
+[1.520s] copying /home/robot/ws_aprendendo_ros2/src/build/curintia/build/lib/curintia/roger_guedes.py -> /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia
+[1.522s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia/roger_guedes.py to roger_guedes.cpython-310.pyc
+[1.522s] running install_data
+[1.523s] running install_egg_info
+[1.526s] removing '/home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia-0.0.0-py3.10.egg-info' (and everything under it)
+[1.533s] Copying ../build/curintia/curintia.egg-info to /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages/curintia-0.0.0-py3.10.egg-info
+[1.535s] running install_scripts
+[1.563s] Installing roger_guedes script to /home/robot/ws_aprendendo_ros2/src/install/curintia/lib/curintia
+[1.564s] writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/curintia/install.log'
+[1.591s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/curintia' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/curintia/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/curintia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/curintia build --build-base /home/robot/ws_aprendendo_ros2/src/build/curintia/build install --record /home/robot/ws_aprendendo_ros2/src/build/curintia/install.log --single-version-externally-managed
