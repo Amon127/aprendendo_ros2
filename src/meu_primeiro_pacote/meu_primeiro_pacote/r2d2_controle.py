@@ -1,4 +1,5 @@
 import rclpy
+import numpy
 from rclpy.node import Node
 
 from sensor_msgs.msg import LaserScan
@@ -70,7 +71,7 @@ class R2D2(Node):
                 i_gain = 0.00
                 d_gain = 0.01 
                 integral = 0.0
-                error = distancia_objetivo - distancia_direita
+                error = distancia_objetivo - distancia_frente
                 integral = integral + error 
                 old_error = error   
                 dif_erro = error - old_error
