@@ -33,7 +33,6 @@ class R2D2(Node):
         self.pose = msg.pose.pose
     
     def run(self):
-         
         self.get_logger().debug ('Executando uma iteração do loop de processamento de mensagens.')
         rclpy.spin_once(self)
 

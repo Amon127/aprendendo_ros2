@@ -27,6 +27,7 @@ setup(
             'listener = meu_primeiro_pacote.listener:main',
             'r2d2 = meu_primeiro_pacote.r2d2:main',
             'r2d2_controle = meu_primeiro_pacote.r2d2_controle:main',
+            'r2d2_caixa = meu_primeiro_pacote.r2d2_caixa:main',
         ],
     },
 )
