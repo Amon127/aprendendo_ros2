@@ -25,7 +25,7 @@ caminho_livre = 1
 obstaculo = 0
 
 # Montando matrix do fafa
-pgmf = open('map.pgm', 'rb')
+pgmf = open('src/my_map.pgm', 'rb')
 matrix = plt.imread(pgmf)
 
 matrix = (1.0 * (matrix > 220))
@@ -49,7 +49,7 @@ while fila:
             if 0 <= i < lines and 0 <= j < columns and matriz[i][j] == 0:
                 matriz[i][j] = matriz[x][y] + 1
                 fila.append((i, j))
-            if (i, j) == (x_inicio, y_inicio):
+            if (i, j) == (x_ini, y_ini):
                 fila.clear()  # Limpa a fila para encerrar o loop   
                 break  # Sai do loop for interno
         else:
@@ -83,7 +83,7 @@ def menor_valor(x_atual, y_atual, x_fin, y_fin,matriz):
 matriz[x_ini][y_ini] = float('inf')
 while not(x_atual== x_fin and y_atual == y_fin):
     pros_x,pros_y = menor_valor(x_atual, y_atual, x_fin, y_fin,matriz)
-    matriz_caminho[pros_x][pros_y] = 
+    matriz_caminho[pros_x][pros_y] = 1  
     x_atual = pros_x
     y_atual = pros_y
     path.append(Path(x_atual,y_atual))
@@ -92,7 +92,6 @@ while not(x_atual== x_fin and y_atual == y_fin):
 path_x = [min(max(cell.x, 0), lines - 1) for cell in path]
 path_y = [min(max(cell.y, 0), columns - 1) for cell in path]
 
-# Visualize the path
- plt.imshow(matrix, interpolation='nearest', cmap='gray') 
-plt.plot(path_y, path_x, color='yellow', linewidth=2)
+plt.imshow(matrix, interpolation='nearest', cmap='gray') 
+plt.plot(path_y, path_x, color='red', linewidth=2)
 plt.show()

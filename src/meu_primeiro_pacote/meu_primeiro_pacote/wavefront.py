@@ -17,7 +17,7 @@ start = (x_ini, y_ini)
 path = [Path(start[0], start[1])]   
 
 #Montando a matriz obstaculo
-pgmf = open('map.pgm', 'rb')
+pgmf = open('src/my_map2.pgm', 'rb')
 matrix = plt.imread(pgmf)
 print (matrix)
 
@@ -52,7 +52,7 @@ def adjacentes(x_atual, y_atual):
                 else:
                     matriz_g[i][j] = 1.4
                 # Calcula a distância H para o ponto adjacente
-                matriz_h[i][j] = math.sqrt((x_fin - i )* 2 + (y_fin - j) * 2)
+                matriz_h[i][j] = math.sqrt((x_fin - i ) ** 2 + (y_fin - j) ** 2)
                 # Calcula F considerando obstáculos
                 if matrix[i][j] == 1:
                     matriz_f[i][j] = 40000
@@ -66,7 +66,7 @@ def diagonais(x_atual, y_atual):
                 # Define os valores de G para a célula diagonal adjacente
                 matriz_g[i][j] = 1.4
                 # Calcula a distância H para a célula diagonal adjacente
-                matriz_h[i][j] = math.sqrt((x_fin - i )* 2 + (y_fin - j) * 2)
+                matriz_h[i][j] = math.sqrt((x_fin - i ) ** 2 + (y_fin - j) ** 2)
                 # Calcula F considerando obstáculos
                 if matrix[i][j] == 1:
                     matriz_f[i][j] = 40000
@@ -87,7 +87,7 @@ def menor_valor(matriz_f, x_atual, y_atual, x_fin, y_fin):
                 # Verifique se as coordenadas estão dentro dos limites da matriz
                 if 0 <= novo_x < 400 and 0 <= novo_y < 400:
                     valor = matriz_f[novo_x][novo_y]
-                    if valor < menor_valor:
+                    if valor < menor_valor and valor < 40000:
                         menor_valor = valor
                         menor_x = novo_x
                         menor_y = novo_y
@@ -102,7 +102,7 @@ y_atual = y_ini
 qtd = 0
 
 while not(x_atual== x_fin and y_atual == y_fin):
-    matriz_caminho[x_atual][y_atual] = 
+    matriz_caminho[x_atual][y_atual] = '*'
     # print("x_atual é:",x_atual)
     # print("y_atual é:",y_atual)
     # for linha in matriz_caminho:
@@ -122,7 +122,7 @@ while path[-1].x != chegada[0] or path[-1].y != chegada[1]:
     menor, next_x, next_y = menor_valor(matriz_f, path[-1].x, path[-1].y,x_fin,y_fin)
     path.append(Path(next_x, next_y))
 
-# Visualize the path
+
 plt.imshow(matrix, interpolation='nearest', cmap='gray')
 for cell in path:
     plt.scatter(x=cell.x, y=cell.y, c='r', s=5)
