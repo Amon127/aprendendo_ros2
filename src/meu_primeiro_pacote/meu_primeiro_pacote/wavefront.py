@@ -9,7 +9,7 @@ class Path:
 x_ini = 50
 y_ini = 50
 
-x_final = 178
+x_fin = 178
 y_fin = 138
 chegada = (x_fin, y_fin)
 
@@ -52,7 +52,7 @@ def adjacentes(x_atual, y_atual):
                 else:
                     matriz_g[i][j] = 1.4
                 # Calcula a distância H para o ponto adjacente
-                matriz_h[i][j] = math.sqrt((x_final - i )* 2 + (y_final - j) * 2)
+                matriz_h[i][j] = math.sqrt((x_fin - i )* 2 + (y_fin - j) * 2)
                 # Calcula F considerando obstáculos
                 if matrix[i][j] == 1:
                     matriz_f[i][j] = 40000
@@ -66,7 +66,7 @@ def diagonais(x_atual, y_atual):
                 # Define os valores de G para a célula diagonal adjacente
                 matriz_g[i][j] = 1.4
                 # Calcula a distância H para a célula diagonal adjacente
-                matriz_h[i][j] = math.sqrt((x_final - i )* 2 + (y_final - j) * 2)
+                matriz_h[i][j] = math.sqrt((x_fin - i )* 2 + (y_fin - j) * 2)
                 # Calcula F considerando obstáculos
                 if matrix[i][j] == 1:
                     matriz_f[i][j] = 40000
@@ -102,7 +102,7 @@ y_atual = y_ini
 qtd = 0
 
 while not(x_atual== x_fin and y_atual == y_fin):
-    matriz_caminho[x_atual][y_atual] = "█"
+    matriz_caminho[x_atual][y_atual] = 
     # print("x_atual é:",x_atual)
     # print("y_atual é:",y_atual)
     # for linha in matriz_caminho:
