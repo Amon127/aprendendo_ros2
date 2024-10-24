@@ -29,7 +29,7 @@ setup(
             'r2d2_controle = meu_primeiro_pacote.r2d2_controle:main',
             'r2d2_caixa = meu_primeiro_pacote.r2d2_caixa:main',
             'wavefront = meu_primeiro_pacote.wavefront:main',
-            'A* = meu_primeiro_pacote.A*:main',
+            'A_estrela = meu_primeiro_pacote.A_estrela:main',
             'rtt = meu_primeiro_pacote.rtt:main',
         ],
     },
