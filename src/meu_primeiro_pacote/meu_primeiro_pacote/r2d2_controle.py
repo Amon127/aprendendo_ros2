@@ -53,9 +53,9 @@ class R2D2(Node):
             distancia_direita = numpy.mean(self.laser[0:10])
             distancia_frente = numpy.mean(self.laser[80:100])
             def seguir_parede():
-                p_gain = 0.1
-                i_gain = 0.00
-                d_gain = 0.01 
+                p_gain = 0.3
+                i_gain = 0.07
+                d_gain = 0.025 
                 integral = 0.0
                 error = distancia_objetivo - distancia_direita
                 integral = integral + error 
@@ -67,9 +67,9 @@ class R2D2(Node):
                 cmd.angular.z = power
                 self.pub_cmd_vel.publish(cmd)
             def virando():
-                p_gain = 0.1
-                i_gain = 0.00
-                d_gain = 0.01 
+                p_gain = 0.3
+                i_gain = 0.07
+                d_gain = 0.02 
                 integral = 0.0
                 error = distancia_objetivo - distancia_frente
                 integral = integral + error 

@@ -37,7 +37,7 @@ class R2D2(Node):
         self.distancia_r2d2 = 0.0
         self.angulo_r2d2 = 0.0
 
-     def distancia_objetivo(self):
+    def distancia_objetivo(self):
         objetivo = [9,9]
         self.distancia = math.dist((self.pose.position.x, self.pose.position.y), objetivo)
         
